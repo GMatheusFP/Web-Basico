@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Second page</title>
+  </head>
+
+  <body>
+    <header>
+      <h2>Part 2 of Learning</h2>
+    </header>
+
+    <form action="process.php" method="post">
+      <label>Text Input</label>
+      <input type="text" name="text-input" placeholder="New input text" />
+      
+      <br /><br />
+      <label>Password Input</label>
+      <input type="password" name="password-input" />
+      
+      <br /><br />
+      <input type="hidden" name="hidden-input" value="Hidden Message" />
+
+      <select name="select-input">
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+      </select>
+      
+      <br /><br />
+      <input type="radio" name="radio-input-one" value="1" checked /> Value 1
+      <input type="radio" name="radio-input-one" value="1" /> Value 2
+      
+      <br /><br />
+      <input type="checkbox" name="checkbox-input-one" value="1" checked/> Value 1
+      <input type="checkbox" name="checkbox-input-one" value="1" /> Value 2
+
+      <br><br>
+      <input type="submit" value="Send" name="submit">
+    </form>
+    <br />
+
+    <footer><a href="index.html"> <- Preview Page </a>
+    <a href="page3.html"> Next Page -></a></footer>
+  </body>
+</html>
